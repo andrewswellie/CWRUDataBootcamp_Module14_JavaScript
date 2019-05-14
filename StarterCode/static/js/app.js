@@ -5,6 +5,7 @@ var tableData = data;
 var tbody = d3.select("tbody");
 var filterBtn = d3.select("#filter-btn");
 
+
 // Use d3 and forEach loops to pull data from the .js file and load it into our HTML dynamically
 tableData.forEach(function(buildData) {
     var row = tbody.append("tr");
