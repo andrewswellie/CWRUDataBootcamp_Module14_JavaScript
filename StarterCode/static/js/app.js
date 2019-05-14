@@ -21,8 +21,8 @@ filterBtn.on("click", function() {
   d3.event.preventDefault();
   var inputField = d3.select("#datetime");
   var queryDate = inputField.property('value');
-  var filteredData = tableData.filter(function (sighting) {
-      	return sighting.datetime === queryDate;
+  var filteredData = tableData.filter(function (newTable) {
+      	return newTable.datetime === queryDate;
       });
   tbody.text('');
   filteredData.forEach(record => { 
@@ -32,3 +32,7 @@ filterBtn.on("click", function() {
         });
     });
 });
+
+
+
+
