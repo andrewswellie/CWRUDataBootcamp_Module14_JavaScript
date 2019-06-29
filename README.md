@@ -1,4 +1,4 @@
-# Unit 14 | Assignment - JavaScript and DOM Manipulation
+# JavaScript and DOM manipulation
 
 ## Background
 
@@ -40,12 +40,4 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 * [UFO Sightings Data](StarterCode/static/js/data.js)
 
-- - -
 
-**Good luck!**
-
-- - -
-
-### Copyright
-
-Data Boot Camp © 2018. All Rights Reserved.
